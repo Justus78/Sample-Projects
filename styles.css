@@ -62,8 +62,9 @@ body {
     width: 100%;
     margin: auto;  
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
 .calculator {
@@ -125,6 +126,35 @@ h1 {
 /*Styles for MTG page*/
 
 .mtgContainer{
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.imageBox{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.imageBox img{
+    height: 350px;
+    float: right;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+li {
+    list-style: none;    
+}
+
+li a:hover{
+    color: #ff6a00;
+}
+li a:clicked{
+    color: black;
 }
