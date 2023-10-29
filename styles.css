@@ -121,3 +121,10 @@ h1 {
 .btn:hover, .equals:hover {
     background-color: white;
 }
+
+/*Styles for MTG page*/
+
+.mtgContainer{
+    display: inline;
+    
+}
